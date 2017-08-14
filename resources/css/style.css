@@ -1,0 +1,32 @@
+html {
+    font-size: 18px;
+    
+    background-color: white;
+}
+body {
+    font-family: Helvetica;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+.company {
+    background-color: black;
+    color: white;
+    
+}
+.company .container {
+    display: flex;
+    align-items: center;
+    
+}
+.company .container img {
+    height: 1.5rem;
+    padding: 0px 0.5em;
+}
+.company .container span {
+    padding: 0.66em 0.5em;
+    font-size: 1rem;
+    
+}
