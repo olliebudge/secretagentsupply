@@ -6,20 +6,18 @@ html {
 body {
     font-family: Helvetica;
 }
-
 .container {
     max-width: 960px;
     margin: 0px auto;
 }
+/*Company*/
 .company {
     background-color: black;
     color: white;
-    
 }
 .company .container {
     display: flex;
     align-items: center;
-    
 }
 .company .container img {
     height: 1.5rem;
@@ -28,5 +26,23 @@ body {
 .company .container span {
     padding: 0.66em 0.5em;
     font-size: 1rem;
-    
+}
+/*Banner*/
+.banner {
+    height: 25rem;
+    background-image: url(../images/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner .container {
+    width: 20rem;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 9rem;
+}
+.headline {
+    color: white;
+
 }
