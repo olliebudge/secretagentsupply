@@ -1,6 +1,5 @@
 html {
     font-size: 18px;
-    
     background-color: white;
 }
 body {
@@ -18,31 +17,45 @@ body {
 .company .container {
     display: flex;
     align-items: center;
+    padding: 12px 0 12px 0.5em;
 }
-.company .container img {
+.company img {
     height: 1.5rem;
-    padding: 0px 0.5em;
+    padding-right: 15px;
 }
-.company .container span {
-    padding: 0.66em 0.5em;
-    font-size: 1rem;
+img {
+    border-style: none;
 }
 /*Banner*/
 .banner {
     height: 25rem;
-    background-image: url(../images/moto.jpeg);
+    background: url(../images/moto.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.banner .container {
-    width: 20rem;
+
+.headline {
     background-color: black;
     color: white;
+    width: 20em;
+    padding: 2em 3em;
     position: relative;
-    top: 9rem;
+    top: 9em;
 }
-.headline {
-    color: white;
+h1 {
+    font-size: 2rem;
+}
 
+h4 {
+    font-size: 1rem;
+}
+
+h1 h4 {
+    font-weight: bold;
+}
+/*nav*/
+nav {
+    background-color: firebrick;
+    color: white;
 }
